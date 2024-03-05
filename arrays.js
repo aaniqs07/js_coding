@@ -108,3 +108,5 @@ console.log(st)
 
 const fruit = ["Banana", "Orange", "Apple", "Mango"];
 fruit.reverse();
+
+//usman bhai
