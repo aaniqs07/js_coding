@@ -131,3 +131,23 @@ function show23 () {
         show23();   
     } 
 }
+show23();  
+
+
+
+function getTotalcars(bookings){
+ let booking = bookings
+if (booking < 600){
+    console.log("This price is too low")
+}
+else if (booking > 600){
+    console.log("Price is too high") 
+}
+
+}
+getTotalcars(500)
+
+
+
+
+
