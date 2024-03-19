@@ -1,12 +1,28 @@
+
+newSignup = []
+
+
 class Login {
-    constructor (Name1, Username, Password)
-        this.Username = Username
-        this.Password = Password
-        this.Name1 = this.Name1
+    constructor (name1, username, password) {
+        console.log('RAMADAN')
+        this.username = username
+        this.password = password
+        this.name1 = name1
+    }
+    getLogin() {
+        return {name1: this.name1, username: this.username, password: this.password}
+    }
+       
+    
+    Signup(name1, username, password){
+        
+        newSignup.push(name1, username, password)
     }
 
-    GetLogin() {
-        return {Name1: this.Name1, Username: this.Username, Password: this.Password}
+    GetNewSignup(){
+        return newSignup
     }
+}
+   
     
 module.exports = Login;

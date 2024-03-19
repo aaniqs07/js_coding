@@ -52,9 +52,9 @@ console.log(car3.make)
 
 //constructor
 function Car(make, model, year, color) {
-    this.make = make,
-    this.model = model,
-    this.year = year,
+    this.make = make
+    this.model = model
+    this.year = year
     this.color = color
     this.drive = function() {
         console.log(`You drive the ${this.model}`)
@@ -85,25 +85,25 @@ carB.drive();
 // dri();
 
 
-function Jordanss(typeOfshoes, releaseDate, colour){
-typeOfshoes = this.typeOfshoes,
-releaseDate = this.releaseDate,
-colour = this.colour,
-this.shoe = function (){
-    console.log(`You have the ${this.colour}`)
- }
+// function Jordanss(typeOfshoes, releaseDate, colour){
+// typeOfshoes = this.typeOfshoes,
+// releaseDate = this.releaseDate,
+// colour = this.colour,
+// this.shoe = function (){
+//     console.log(`You have the ${this.colour}`)
+//  }
 
-}
+// }
 
 
-const shoe1 = new Jordanss('Jordan 4', '2014', 'Yellow')
-const shoe2 = new Jordanss('Jordan 3', '1999', 'Blue')
-const shoe3 = new Jordanss("Jordan 1", "2017", "Green")
+// const shoe1 = new Jordanss('Jordan 4', '2014', 'Yellow')
+// const shoe2 = new Jordanss('Jordan 3', '1999', 'Blue')
+// const shoe3 = new Jordanss("Jordan 1", "2017", "Green")
 
-console.log(typeof shoe1);
+// console.log(typeof shoe1);
 
-shoe1.shoe()
+// shoe1.shoe()
 
-console.log(shoe1.colour)
+// console.log(shoe1.colour)
 
 
